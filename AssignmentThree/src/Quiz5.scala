@@ -8,6 +8,11 @@ object Quiz5 {
       case x if(x>0 && x%2==0)=> x+sum(x-1)
       case x if(x>0 && x%2!=0)=>sum(x-1)
    }
-  println(sum(6))
+  sumSeq(6)
+  def sumSeq(n:Int)={
+    val x=n-1
+    print(sum(x))
+    
+  }
 }
 }
